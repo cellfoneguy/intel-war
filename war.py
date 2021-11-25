@@ -122,8 +122,8 @@ class War:
 
         self.table = []
         print '\r\n'
-        print self.players['One']
-        print self.players['Two']
+        print 'P1 headcount: %d    P2 headcount: %d' % \
+            (len(self.players['One']), len(self.players['Two']))
 
     def run(self):
         self.reset()
