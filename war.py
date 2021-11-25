@@ -1,16 +1,6 @@
 # Alex Bai
 # Game of War
 
-"""
-    Major assumption made is that there are only two players.
-    Minor assumption that running out of cards means you lose.
-    Dict implementation of players.
-    Dict implementation of cards.
-    Unique player names.
-    Recursive battle?
-    Graphics?
-"""
-
 
 import random
 
